@@ -24,11 +24,18 @@ $(document).ready(function() {
 
     });
 
+    $(function(){
+      $("#main").click(function(){
+        $(this).hide();
+      });
+    });
+
 
     $("#resetBtn").click(function() {
       $("#result1").hide();
       $("#result2").hide();
       $("#result3").hide();
       $("#result4").hide();
+      $("#main").show();
     	});
 });
