@@ -10,13 +10,15 @@
   <body>
    <div class="container">
     <h1>Track Suggester Quiz</h1>
-    <form id="inputName">
-      <div class="form-group">
-        <label for="quizTaker">What is your name?</label>
-        <input id="quizTaker" class="form-control" type="text">
-      </div>
+    <div id="blankName">
+      <form>
+        <div class="form-group">
+          <label for="quizTaker">What is your name?</label>
+          <input id="quizTaker" class="form-control" type="text">
+        </div>
       <button type="submit" class="btn btn-danger btn-lg">Submit</button>
     </form>
+  </div>
     <form id="trackQuestions">
       <div class="row">
         <div class="col-sm-4">
@@ -96,9 +98,8 @@
         <button id="resetBtn" type="reset" class="btn btn-success btn-lg">Reset</button>
       </div>
     </form>
-    <div>
-      <div class="nameReveal">
-       <h2> <span class=".quizTaker"></span>should focus on:</h2>
+      <div id="nameReveal">
+       <h2> <span class="quizTaker"></span>should focus on:</h2>
       </div>
       <div class="jumbotron">
         <div id="result1">
@@ -118,7 +119,6 @@
           <img src="img/Java.png" alt="Java logo">
         </div>
       </div>
-    </div>
   </div>
  </body>
 </html>

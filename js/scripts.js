@@ -9,13 +9,14 @@ $(document).ready(function() {
     var colleagues = parseInt($("input:radio[name=colleagues]:checked").val());
     var score = (end + career + performance + employer + colleagues);
 
-    $("form#inputName").submit(function(){
+    })
+
+    $("form#blankName").submit(function(){
       var quizTakerInput = $("input#quizTaker").val();
 
-      $("#quizTaker").text(quizTakerInput);
+      $(".quizTaker").text(quizTakerInput);
 
-      $(".nameReveal").show();
-    })
+      $("#nameReveal").show();
 
     if (score <= 8) {
       $("#result1").show();
@@ -26,6 +27,8 @@ $(document).ready(function() {
         } else {
             $("#result4").show();
           }
+
+
 
     event.preventDefault();
 

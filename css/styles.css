@@ -13,10 +13,6 @@ label{
   font-size: 200%;
 }
 
-.nameReveal{
-    display: none;
-}
-
 .jumbotron{
   text-align: center;
   display: block;
@@ -33,6 +29,10 @@ label{
   text-align: center;
   display: block;
 
+}
+
+#nameReveal{
+    display: none;
 }
 
 #result1{
