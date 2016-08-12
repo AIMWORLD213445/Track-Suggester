@@ -10,6 +10,13 @@
   <body>
    <div class="container">
     <h1>Track Suggester Quiz</h1>
+    <form id="inputName">
+      <div class="form-group">
+        <label for="quizTaker">What is your name?</label>
+        <input id="quizTaker" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+    </form>
     <form id="trackQuestions">
       <div class="row">
         <div class="col-sm-4">
@@ -52,7 +59,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="row2">
         <div class="col-sm-4">
           <div class="radio">
             <h2>Choose a specific employer you would be interested in:</h2>
@@ -85,12 +92,14 @@
         </div>
       </div>
       <div class="button">
-        <button id="main" type="submit" class="btn btn-warning">What track should I pick?</button>
-        <button id="resetBtn" type="reset" class="btn btn-success">Reset</button>
+        <button id="main" type="submit" class="btn btn-warning btn-lg">What track should I pick?</button>
+        <button id="resetBtn" type="reset" class="btn btn-success btn-lg">Reset</button>
       </div>
     </form>
     <div>
-      <h2>You should focus on:</h2>
+      <div class="nameReveal">
+       <h2> <span class=".quizTaker"></span>should focus on:</h2>
+      </div>
       <div class="jumbotron">
         <div id="result1">
           <h2>Ruby</h2>
