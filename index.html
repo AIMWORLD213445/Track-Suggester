@@ -8,14 +8,10 @@
     <title>Quiz</title>
   </head>
   <body>
-<div class="container">
-  <div>
-    <header>
+   <div class="container">
     <h1>Track Suggester Quiz</h1>
-    </header>
-  </div>
     <form id="trackQuestions">
-    <div class="row">
+      <div class="row">
         <div class="col-sm-4">
           <div class="radio">
             <h2>Choose whether you want to work primarily on front or back end development:</h2>
@@ -28,23 +24,23 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <h2>Choose a broad career:</h2>
           <div class="radio">
+            <h2>Choose a broad career:</h2>
             <label>
               <input type="radio" name="career" value="1">
               Startup with interactive web apps<br>
               <input type="radio" name="career" value="2">
               content laden low interaction web sites<br>
               <input type="radio" name="career" value="3">
-              Enterprise software<br
-              ><input type="radio" name="career" value="4">
+              Enterprise software<br>
+              <input type="radio" name="career" value="4">
               Jack of all trades<br>
             </label>
           </div>
         </div>
         <div class="col-sm-4">
-          <h2>What level of performance do you want to be capable of?</h2>
           <div class="radio">
+            <h2>What level of performance do you want to be capable of?</h2>
             <label>
               <input type="radio" name="performance" value="1">
               low performance<br>
@@ -55,65 +51,65 @@
             </label>
           </div>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <h2>Choose a specific employer you would be interested in:</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="employer" value="1" >
-            Intuit<br>
-            <input type="radio" name="employer" value="2">
-            Ars Technica<br>
-            <input type="radio" name="employer" value="3">
-            Microsoft<br
-            ><input type="radio" name="employer" value="4">
-            Google<br>
-          </label>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="radio">
+            <h2>Choose a specific employer you would be interested in:</h2>
+            <label>
+              <input type="radio" name="employer" value="1" >
+              Intuit<br>
+              <input type="radio" name="employer" value="2">
+              Ars Technica<br>
+              <input type="radio" name="employer" value="3">
+              Microsoft<br>
+              <input type="radio" name="employer" value="4">
+              Google<br>
+            </label>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="radio">
+            <h2>What are your colleagues and people you trust focusing on?</h2>
+            <label>
+              <input type="radio" name="colleagues" value="1">
+              Ruby<br>
+              <input type="radio" name="colleagues" value="2">
+              PHP<br>
+              <input type="radio" name="colleagues" value="3">
+              C#<br>
+              <input type="radio" name="colleagues" value="4">
+              Java<br>
+            </label>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <button type="submit" class="btn">What track should I pick?</button>
+          <button id="resetBtn" type="reset" class="btn btn-success">Reset</button>
         </div>
       </div>
-      <div class="col-sm-4">
-        <h2>What are your colleagues and people you trust focusing on?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="colleagues" value="1">
-            Ruby<br>
-            <input type="radio" name="colleagues" value="2">
-            PHP<br>
-            <input type="radio" name="colleagues" value="3">
-            C#<br
-            ><input type="radio" name="colleagues" value="4">
-            Java<br>
-          </label>
+    </form>
+    <div>
+      <h2>You should focus on:</h2>
+      <div class="container">
+        <div id="result1">
+          <h2>Ruby</h2>
+          <img src="img/Ruby.jpeg" alt="Ruby logo">
+        </div>
+        <div id="result2">
+          <h2>PHP</h2>
+          <img src="img/PHP.jpeg" alt="PHP logo">
+        </div>
+        <div id="result3">
+          <h2>C#</h2>
+          <img src="img/c#.png" alt="C# logo">
+        </div>
+        <div id="result4">
+          <h2>Java</h2>
+          <img src="img/Java.png" alt="Java logo">
         </div>
       </div>
-      <div class="col-sm-4">
-<button type="submit" class="btn">What track should I pick?</button>
-<button id="resetBtn" type="reset" class="btn btn-success">Reset</button>
-        <h2>Result</h2>
-      </div>
-</form>
-    <div class="Jumbotron">
-
-      <div id="result1">
-        <h2>Ruby</h2>
-        <img src="">
-      </div>
-      <div id="result2">
-        <h2>PHP</h2>
-        <img src="">
-      </div>
-      <div id="result3">
-        <h2>C#</h2>
-        <img src="">
-      </div>
-      <div id="result4">
-        <h2>Java</h2>
-        <img src="">
-      </div>
-
     </div>
-    </div>
-    </div>
-  </body>
+  </div>
+ </body>
 </html>

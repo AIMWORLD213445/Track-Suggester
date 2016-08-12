@@ -16,8 +16,9 @@ $(document).ready(function() {
         $("#result2").show();
       } else if (score <=14){
           $("#result3").show();
-        } else if (score > 14){
+        } else {
             $("#result4").show();
+          }
 
     event.preventDefault();
 
