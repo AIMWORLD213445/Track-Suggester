@@ -12,11 +12,11 @@ $(document).ready(function() {
 
 
 
-    if (score <= 8) {
+    if (score <= 7) {
       $("#result1").show();
     } else if (score <= 12){
         $("#result2").show();
-      } else if (score <=14){
+      } else if (score <=15){
           $("#result3").show();
         } else {
             $("#result4").show();
@@ -31,6 +31,7 @@ $(document).ready(function() {
     $(function(){
       $("#main").click(function(){
         $(this).hide();
+        $("h3").show();
       });
     });
 
@@ -40,6 +41,7 @@ $(document).ready(function() {
       $("#result2").hide();
       $("#result3").hide();
       $("#result4").hide();
+      $("h3").hide();
       $("#main").show();
     	});
 });

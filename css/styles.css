@@ -4,12 +4,22 @@ body{
 
 h1{
   text-align: center;
-  background-color: gray;
+  background-color: azure;
   font-size: 350%;
+}
+
+h3{
+  display: none;
 }
 
 label{
   font-size: 200%;
+}
+
+p{
+  font-size: 125%;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 .jumbotron{
