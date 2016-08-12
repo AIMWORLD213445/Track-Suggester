@@ -9,14 +9,8 @@ $(document).ready(function() {
     var colleagues = parseInt($("input:radio[name=colleagues]:checked").val());
     var score = (end + career + performance + employer + colleagues);
 
-    })
 
-    $("form#blankName").submit(function(){
-      var quizTakerInput = $("input#quizTaker").val();
 
-      $(".quizTaker").text(quizTakerInput);
-
-      $("#nameReveal").show();
 
     if (score <= 8) {
       $("#result1").show();

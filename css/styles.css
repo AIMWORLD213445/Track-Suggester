@@ -8,7 +8,6 @@ h1{
   font-size: 350%;
 }
 
-
 label{
   font-size: 200%;
 }
@@ -31,10 +30,6 @@ label{
 
 }
 
-#nameReveal{
-    display: none;
-}
-
 #result1{
   display: none;
 
@@ -52,9 +47,5 @@ label{
 
 #result4{
   display: none;
-
-}
-
-#row2{
 
 }

@@ -10,15 +10,6 @@
   <body>
    <div class="container">
     <h1>Track Suggester Quiz</h1>
-    <div id="blankName">
-      <form>
-        <div class="form-group">
-          <label for="quizTaker">What is your name?</label>
-          <input id="quizTaker" class="form-control" type="text">
-        </div>
-      <button type="submit" class="btn btn-danger btn-lg">Submit</button>
-    </form>
-  </div>
     <form id="trackQuestions">
       <div class="row">
         <div class="col-sm-4">
@@ -98,27 +89,25 @@
         <button id="resetBtn" type="reset" class="btn btn-success btn-lg">Reset</button>
       </div>
     </form>
-      <div id="nameReveal">
-       <h2> <span class="quizTaker"></span>should focus on:</h2>
+    <h2> You should focus on:</h2>
+    <div class="jumbotron">
+      <div id="result1">
+        <h2>Ruby</h2>
+        <img src="img/Ruby.jpeg" alt="Ruby logo">
       </div>
-      <div class="jumbotron">
-        <div id="result1">
-          <h2>Ruby</h2>
-          <img src="img/Ruby.jpeg" alt="Ruby logo">
-        </div>
-        <div id="result2">
-          <h2>PHP</h2>
-          <img src="img/PHP.jpeg" alt="PHP logo">
-        </div>
-        <div id="result3">
-          <h2>C#</h2>
-          <img src="img/csharp.jpg" alt="C# logo">
-        </div>
-        <div id="result4">
-          <h2>Java</h2>
-          <img src="img/Java.png" alt="Java logo">
-        </div>
+      <div id="result2">
+        <h2>PHP</h2>
+        <img src="img/PHP.jpeg" alt="PHP logo">
       </div>
+      <div id="result3">
+        <h2>C#</h2>
+        <img src="img/csharp.jpg" alt="C# logo">
+      </div>
+      <div id="result4">
+        <h2>Java</h2>
+        <img src="img/Java.png" alt="Java logo">
+      </div>
+    </div>
   </div>
  </body>
 </html>
