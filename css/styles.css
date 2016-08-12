@@ -1,16 +1,25 @@
 
 #result1{
   display: none;
+
 }
 
 #result2{
   display: none;
+
 }
 
 #result3{
   display: none;
+
 }
 
 #result4{
   display: none;
+
+}
+
+.jumbotron{
+  text-align: center;
+  display: block;
 }
